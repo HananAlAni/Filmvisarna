@@ -15,23 +15,8 @@
 
 
 export default {
-  components: { Login },
-  data() {
-    return {
-      showLogin: false,
-      showMember: false,
-    };
-  },
-  computed: {
-    getCurrentUserName() {
-      return this.$store.state.currentUser.name
-    }
-  },
-  methods: {
-    toggleLogin() {
-      this.showLogin = !this.showLogin;
-    },
-  },
+ 
+
 };
 </script>
 
@@ -51,13 +36,6 @@ a:hover {
   color: rgba(121, 122, 131, 0.281);
 }
 
-.login {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
 
 nav {
   padding: 35px;
