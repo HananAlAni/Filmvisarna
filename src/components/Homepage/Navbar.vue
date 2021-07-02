@@ -7,14 +7,7 @@
       <router-link to="/">Home</router-link>
       <router-link to="/films">Filmer</router-link>
       <router-link to="/biograf">Biograf</router-link>
-      <router-link to="/contact">Kontakt</router-link>
-      <button @click="toggleLogin">
-        <p v-if="getCurrentUserName">Hej, {{ getCurrentUserName }}  </p>
-        <i class="fas fa-user-alt"></i>
-        </button>
-     
-      <div v-if="showMember">Member pages dropdown..</div>
-    </nav>
+            </nav>
   </div>
 </template>
 
