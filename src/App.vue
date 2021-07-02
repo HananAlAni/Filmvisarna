@@ -1,22 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div class="rootElement">
+    <Navbar />
+    <router-view />
+  </div>
 </template>
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import Navbar from "./components/navbar.vue";
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+export default {
+  name: "App",
+  components: { Navbar },
+  created() {
+    this.$store.dispatch("fetchMovie");
+    this.$store.dispatch("fetchViewings");
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.rootElement {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  /* text-align: center; */
+  color: white;
+  box-sizing: border-box;
 }
 </style>
+
