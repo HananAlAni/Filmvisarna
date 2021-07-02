@@ -56,7 +56,8 @@ export default {
   mounted() {
     this.setDates()
   },
-}
+},
+};
 </script>
 
 <style scoped>
@@ -95,4 +96,4 @@ h5 {
 .container-title {
   display: inline-block;
 }
-</style>
+</style> 
