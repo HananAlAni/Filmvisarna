@@ -23,15 +23,7 @@ const mutations = {
     state.allViewings = list
     console.log("Viewings list saved")
   },
-  toggleLoggedIn(state, trueOrFalse) {
-    state.loggedIn = trueOrFalse
-    console.log("Customer logged in: ", state.loggedIn)
-  },
-  setCurrentUser(state, currentUser) {
-    state.currentUser = currentUser
-    console.log("User name: ", state.currentUser.name)
-  }
-
+  
 }
 
 //async network requests
