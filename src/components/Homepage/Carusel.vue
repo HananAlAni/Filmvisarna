@@ -3,7 +3,7 @@
       <ol class="carousel__viewport">
         <li id="carousel__slide1" tabindex="0" class="carousel__slide">
           <div class="carousel__snapper">
-            <img src="..assets/Star-wars.jpg" alt=" " width="600" height="600" >
+            <img src="..assets/Luca(2021-film).jpg" alt=" " width="600" height="600" >
          
             <a href="#carousel__slide1 " class="carousel__prev"
               >Go to last slide</a><a class="carousel__next"
