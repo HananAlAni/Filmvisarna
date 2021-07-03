@@ -4,9 +4,11 @@
       <img class="logo" src="../assets/logo2.png" />
     </div>
     <nav>
-      <router-link to="/">Home</router-link>
+
+  <router-link to="/">Start</router-link>
       <router-link to="/films">Filmer</router-link>
-      <router-link to="/biograf">Biograf</router-link>
+   <router-link to="/biograf">Biograf</router-link>
+   
             </nav>
   </div>
 </template>
@@ -28,7 +30,7 @@ a, p, button {
   padding-left: 25px;
   border: 1px;
   font-size: 20px;
-  color: rgb(124, 124, 114);
+  color: rgb(136, 44, 49);
   float: left;
 }
 
@@ -38,12 +40,12 @@ a:hover {
 
 
 nav {
-  padding: 35px;
+  padding:37px;
   height: 20px;
   text-align: center;
   border-bottom: 2px solid rgb(99, 96, 96);
   box-shadow: 1px 3px 3px grey;
-  background-color: rgb(54, 41, 41);
+  background-color: rgb(8, 8, 8);
   padding-left: 170px;
 }
 .logoBox {
@@ -63,9 +65,10 @@ button {
   float: right;
 }
 
+
 button:focus{
   outline: none;
-  color: rgba(121, 122, 131, 0.281);
+  color: rgba(122, 62, 85, 0.281);
  }
 
  button:hover {

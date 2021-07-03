@@ -3,15 +3,15 @@
       <ol class="carousel__viewport">
         <li id="carousel__slide1" tabindex="0" class="carousel__slide">
           <div class="carousel__snapper">
-            <img src="https://m.media-amazon.com/images/M/MV5BYTE1ZTBlYzgtNmMyNS00ZTQ2LWE4NjEtZjUxNDJkNTg2MzlhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg" alt=" " width="600" height="600" >
-            <a href="#carousel__slide4" class="carousel__prev"
-              >Go to last slide</a>
-            <a href="#carousel__slide2" class="carousel__next"
+            <img src="..assets/Star-wars.jpg" alt=" " width="600" height="600" >
+         
+            <a href="#carousel__slide1 " class="carousel__prev"
+              >Go to last slide</a><a class="carousel__next"
               >Go to next slide</a> </div>
         </li>
         <li id="carousel__slide2" tabindex="0" class="carousel__slide">
           <div class="carousel__snapper"></div>
-          <img src="https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg" alt=" " width="600" height="600" >
+          <img src="..assets/Freozen-2.jpg" alt=" " width="600" height="600" >
           <a href="#carousel__slide1" class="carousel__prev"
             >Go to previous slide</a>
           <a href="#carousel__slide3" class="carousel__next"
@@ -19,20 +19,13 @@
         </li>
         <li id="carousel__slide3" tabindex="0" class="carousel__slide">
           <div class="carousel__snapper"></div>
-           <img src="https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg" alt=" " width="600" height="600" >
+           <img src="..assets/Star_Wars.jpg" alt=" " width="600" height="600" >
           <a href="#carousel__slide2" class="carousel__prev"
             >Go to previous slide</a>
           <a href="#carousel__slide4" class="carousel__next"
             >Go to next slide</a>
         </li>
-        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <img src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" alt=" " width="600" height="600" >
-          <a href="#carousel__slide3" class="carousel__prev"
-            >Go to previous slide</a>
-          <a href="#carousel__slide1" class="carousel__next"
-            >Go to first slide</a>
-        </li>
+       
       </ol>
       <aside class="carousel__navigation">
         <ol class="carousel__navigation-list">
@@ -47,10 +40,7 @@
             <a href="#carousel__slide3" class="carousel__navigation-button"
               >Go to slide 3</a>
           </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide4" class="carousel__navigation-button"
-              >Go to slide 4</a>
-          </li>
+
         </ol>
       </aside> 
     </section>
@@ -58,6 +48,8 @@
 
 <script>
 export default {
+ 
+   
 };
 </script>
 
