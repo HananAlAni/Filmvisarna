@@ -12,8 +12,8 @@ export default {
   name: "App",
   components: { Navbar },
   created() {
-   this.$store.dispatch("fetchMovie");
-   this.$store.dispatch("fetchViewings");
+  // this.$store.dispatch("fetchMovie");
+  // this.$store.dispatch("fetchViewings");
   },
 };
 </script>
@@ -27,7 +27,6 @@ export default {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: white;
   box-sizing: border-box;
 }
